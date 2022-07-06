@@ -1,0 +1,96 @@
+.skill-page{
+    margin-top: -86.5vh;
+    .text-zone{
+        width: 40%;
+        margin-left: 10vw;
+        h1 {
+            font-size: 70px;
+            font-family: 'Coolvetica';
+            color: #2f064b;
+            font-weight: 400;
+            margin-top: 0;
+            position: relative;
+            margin-bottom: 40px;
+            text-align: center;
+        }
+        
+        .skill{
+            font-size: 20px;
+            color: rgb(39, 36, 36);
+            font-family: 'Times New Roman';
+            font-weight: 300;
+            max-width: fit-content;
+            animation: pulse 1s;
+        
+            &:nth-of-type(1) {
+                animation-delay: 1.1s;
+            }
+        
+            &:nth-of-type(2) {
+                animation-delay: 1.2s;
+            }
+        
+            &:nth-of-type(3) {
+                animation-delay: 1.3s;
+            }
+            a{
+                text-decoration: none;
+                color: black;
+                &:hover{
+                    color: #2f064b;
+                    font-size: 22px;
+                }
+            }
+        }
+        
+        .text-zone {
+            position: absolute;
+            left: 10%;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 35%;
+            vertical-align: middle;
+            display: table-cell;
+            max-height: 90%;
+        }
+        
+        .text-animate-hover {
+            &:hover {
+                color: rgb(255, 0, 0);
+            }
+        }
+    }
+    .progress{
+        display: flex;
+        flex-direction: column;
+        float: right;
+        width: 46%;
+        margin-top: -80vh;
+        margin-right: 40px;
+        align-items: center;
+
+        h3{
+            margin-left:50px;
+            margin-bottom: -30px;
+            font-size: 40px;
+        }
+        .pro{
+            width:80%;
+            display: flex;
+            margin-bottom: -20px;
+            .image{
+                height: 40px;
+                width: 40px;
+                margin-top: 45.7px;
+                float: left;
+            }
+            .prog{
+                transition: 'width 1s ease-in-out';
+                float: right;
+                width:100%;
+                margin-left: -20px;
+                margin-bottom: -100px;
+            }
+        }
+    }
+}

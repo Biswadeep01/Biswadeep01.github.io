@@ -1,0 +1,19 @@
+$primary-color: #000c30;
+
+@import 'animate.css';
+@import '~loaders.css/src/animations/ball-scale-multiple.scss';
+
+input,
+textarea {
+  font-family: 'Times New Roman', sans-serif;
+}
+
+
+.loader-active {
+  margin-top: -50vh;
+  margin-left: 50vw;
+  width: 100px;
+  height: 100px;
+  animation: fadeOut 1s 1s;
+  animation-fill-mode: forwards;
+}
