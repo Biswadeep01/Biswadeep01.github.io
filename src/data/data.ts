@@ -34,6 +34,14 @@ export const portfolioData = {
   projects: [
     {
       id: "proj-1",
+      title: "AI-based Academic Timetable and Faculty Roster Management System",
+      category: "Research & Web",
+      description: "A production-ready web application designed for Roster Management and Timetable Generation using AI.",
+      techStack: ["Google Colab", "FastAPI", "Python", "Streamlit", "Google-OR Tools", "DEAP"],
+      repoLink: "https://github.com/Biswadeep01/AI-TimeTable",
+    },
+    {
+      id: "proj-2",
       title: "Hidden Image Watermarking Application",
       category: "Research & Web",
       description: "A production-ready web application designed for secure image watermarking.",
@@ -42,16 +50,16 @@ export const portfolioData = {
       repoLink: "https://github.com/Biswadeep01/Photostamp",
     },
     {
-      id: "proj-2",
+      id: "proj-3",
       title: "Bakery E-Commerce",
       category: "Web Development",
       description: "Modern, responsive website for a bakery shop featuring product catalogs and a highly optimized mobile viewing experience.",
-      techStack: ["NextJS", "Node.js", "Tailwind"],
+      techStack: ["NextJS", "Node.js", "Tailwind", "Supabase"],
       demoLink: "https://bakery-layerbites.vercel.app/",
       repoLink: "https://github.com/Biswadeep01/Bakery-Portfolio",
     },
     {
-      id: "proj-3",
+      id: "proj-4",
       title: "Coaching Centre Portfolio",
       category: "Web Development",
       description: "A responsive website for a coaching center showcasing services and student achievements.",
@@ -60,7 +68,7 @@ export const portfolioData = {
       repoLink: "https://github.com/Biswadeep01/Coaching-Portfolio",
     },
     {
-      id: "proj-4",
+      id: "proj-5",
       title: "Restaurant Portfolio",
       category: "Web Development",
       description: "A responsive website for a restaurant showcasing menus and services.",
@@ -69,7 +77,7 @@ export const portfolioData = {
       repoLink: "https://github.com/Biswadeep01/restaurant",
     },
     {
-      id: "proj-5",
+      id: "proj-6",
       title: "Custom Contact Form",
       category: "Web Development",
       description: "A responsive contact form for a business or organization.",
@@ -77,7 +85,7 @@ export const portfolioData = {
       repoLink: "https://github.com/Biswadeep01/Contact-Form",
     },
     {
-      id: "proj-6",
+      id: "proj-7",
       title: "EcoTrack - Environmental Monitoring System",
       category: "Research",
       description: "The place to calculate the carbon footprint of the company (currently restricted to a few ones)",
